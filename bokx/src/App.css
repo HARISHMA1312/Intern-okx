@@ -66,6 +66,7 @@
   align-items: stretch; 
 }
 
+
 .login-container, .signup-container {
   padding: 10%;
   justify-content: center;
@@ -80,22 +81,8 @@
   cursor: pointer;
 }
 
-.p-2:hover {
-  color: black;
-  text-decoration: underline;
-}
 
-.p-2:not(.active-method)::after {
-  content: " ";
-  display: inline-block;
-  margin-right: 0.2em; 
-}
 
-.active-method {
-  color: black;
-  text-decoration: underline;
-  padding-bottom: 2px; 
-}
 
 .nxt-btn {
   background-color: lightgrey;
@@ -118,37 +105,12 @@
   color: white;
 }
 
-.tel {
-  background-color: rgb(76, 74, 74);
-  padding: 3%;
-  border-radius: 5px;
-  width: 70%;
-  margin-left: 15%;
-}
 
-.tel p {
-  color: rgb(200, 195, 195);
-}
 
-.qr-container {
-  text-align: center;
-  padding: 20px;
-}
 
-.phone-input {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
 
-.phone-input .form-control {
-  flex-grow: 1;
-}
 
-.phone-input .dropdown-toggle {
-  width: 80px;
-  text-align: left;
-}
+
 
 .dont-have-account {
   text-align: center;
@@ -176,19 +138,13 @@
   margin: 0 10px;
 }
 
-.country-code-dropdown .dropdown-toggle {
-  display: inline-flex;
-  align-items: center;
-}
 
-.country-code-dropdown .dropdown-toggle:after {
-  margin-left: 0.5em;
-}
 
 
 .recap{
   color: grey;
   font-size: 10px;
+  
 }
 
  p span b{
@@ -333,4 +289,144 @@ input[placeholder] {
     margin-left: 15px;
     gap: 5px;
   }
+}
+
+/*-------------orgot---*/
+
+/* CSS for Popup */
+.popup-modal {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: auto;
+}
+
+.popup-modal h2 {
+  color: white;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.popup-modal .form-control {
+  background-color: #333;
+  color: white;
+  border: 1px solid #555;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.popup-modal .form-control::placeholder {
+  color: #bbb;
+}
+
+.popup-modal .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.popup-modal .btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+
+.popup-modal .btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.popup-modal .btn-secondary:hover {
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+
+.popup-modal .form-control:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: none;
+}
+
+
+.f-body{
+  background-color: black;
+  color: white;
+}
+
+.pop-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(75, 75, 75, 0.7);
+  backdrop-filter: blur(1px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pop-container {
+  background-color: black;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 1.5em;
+}
+
+.pop-content {
+  text-align: center;
+  color: white;
+}
+
+.pop-input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #333;
+  color: white;
+}
+
+
+
+.fp-p{
+  cursor: pointer;
+  text-align: end;
+}
+
+
+
+.fp-p:hover{
+text-decoration: underline;
+
+}
+
+
+.reset-btn{
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 2%;
 }

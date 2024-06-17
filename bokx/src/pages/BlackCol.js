@@ -1,5 +1,5 @@
 import React from 'react'
-import { Col } from 'react-bootstrap'
+
 
 export default function BlackCol() {
   return (

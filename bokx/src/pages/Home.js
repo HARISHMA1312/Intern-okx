@@ -17,10 +17,10 @@ function Home() {
               <h1 className="b_h1"><b>Faster, better, <br />stronger than your <br />average crypto <br />exchange</b></h1>
               <div>
                 <input className="b_input" type="text" placeholder="  Email address" />
-                <button className="b_try">Try OKX</button>
+                <button className="b_try" onClick={() => window.location.href = '/readvalue'}>Try OKX</button>
               </div>
               <div className="image-wrapper mt-3">
-                <Image src={Home1} width='155' height='50' alt='OKX Logo' fluid />
+                <Image src={Home1} width='105' height='50' alt='OKX Logo' fluid />
                 <Image src={Home2} width='150' height='50' alt='OKX Logo' fluid />
                 <Image src={Home3} width='85' height='55' alt='OKX Logo' fluid />
               </div>
