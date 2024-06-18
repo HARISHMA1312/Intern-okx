@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import Navv from './Navv';
 import { Stack, Col, Container, Row, Image, Figure } from 'react-bootstrap';
+import {Formik,ErrorMessage,Field} from 'formik'
+import * as Yup from'yup'
 import Apple from '../assets/apple-logo.png';
 import Google from '../assets/google.png';
 import Telegram from '../assets/telegram.png';
@@ -133,6 +135,11 @@ export default function Login() {
       setShowPop(false);
     };
   
+
+    const loginSchema=Yup.object({
+      Email:Yup.string()
+      
+    })
     return (
       <div className='login-bdy'>
         <Navv />
