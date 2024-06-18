@@ -144,6 +144,9 @@ export default function Signup() {
 
   const postValue=()=>{
     axios.post(
+
+
+      
       'https://666fc1610900b5f872481ed7.mockapi.io/Signup',
   {
       email,
