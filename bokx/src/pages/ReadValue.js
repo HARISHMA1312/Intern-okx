@@ -18,7 +18,7 @@ export default function ReadValue() {
             {ReadData.map((data) => {
                 return (
                     <ul>
-                        <li>{data.Email}</li>
+                        <li>{data.email}</li>
                     </ul>
                 )
             })}

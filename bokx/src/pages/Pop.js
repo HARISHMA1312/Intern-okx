@@ -3,31 +3,31 @@ import { DiCssTricks } from 'react-icons/di';
 import axios from 'axios';
 
 export default function Pop({ onClose }) {
-  const [Email, setEmail] = useState('');
-  const [Password, setPassword] = useState('');
+  const [email, setemail] = useState('');
+  const [password, setpassword] = useState('');
   const [Confirm, setConfirm] = useState('');
 
   const updateAPIData = async () => {
-    if (Password !== Confirm) {
-      alert('Passwords do not match');
+    if (password !== Confirm) {
+      alert('passwords do not match');
       return;
     }
 
     try {
       const response = await axios.get('https://666fc1610900b5f872481ed7.mockapi.io/Signup');
       const users = response.data;
-      const user = users.find(user => user.Email === Email);
+      const user = users.find(user => user.email === email);
 
       if (user) {
         await axios.put(`https://666fc1610900b5f872481ed7.mockapi.io/Signup/${user.id}`, {
-          Email,
-          Password,
+          email,
+          password,
           Confirm
         });
-        alert('Password updated successfully');
+        alert('password updated successfully');
       
       } else {
-        alert('Email not found');
+        alert('email not found');
         
       }
     } catch (error) {
@@ -43,24 +43,24 @@ export default function Pop({ onClose }) {
           <DiCssTricks />
         </button>
         <div className='pop-content'>
-          <h1>Reset Password</h1>
+          <h1>Reset password</h1>
           <input 
-            placeholder='Email'
+            placeholder='email'
             required 
             type='email'
             className='pop-input'
-            value={Email}
-            onChange={(e) => setEmail(e.target.value)}
+            value={email}
+            onChange={(e) => setemail(e.target.value)}
           />
           <input 
-            placeholder='New Password'
+            placeholder='New password'
             required type='password' 
             className='pop-input'
-            value={Password}
-            onChange={(e) => setPassword(e.target.value)}
+            value={password}
+            onChange={(e) => setpassword(e.target.value)}
           />
           <input 
-            placeholder='Confirm Password' 
+            placeholder='Confirm password' 
             required type='password' 
             className='pop-input'
             value={Confirm}
