@@ -218,7 +218,7 @@ export default function Signup() {
                     label={
                       <span style={{ color: 'grey' }}>
                         By creating an account, I agree to{' '}
-                        <u onClick={() => window.location.href = '/terms-and-conditions'}>
+                        <u >
                           OKX Terms of Service, Risk and Compliance, and privacy policy statements
                         </u>
                       </span>
