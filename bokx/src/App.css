@@ -436,3 +436,7 @@ ul{
   margin-left: 10%;
   justify-content: space-evenly;
 }
+
+u{
+  cursor: pointer;
+}
