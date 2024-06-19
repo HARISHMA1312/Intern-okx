@@ -108,13 +108,6 @@
   color: white;
 }
 
-
-
-
-
-
-
-
 .dont-have-account {
   text-align: center;
 }
@@ -140,9 +133,6 @@
   width: 30%;
   margin: 0 10px;
 }
-
-
-
 
 .recap {
   color: grey;
@@ -232,25 +222,6 @@ label {
   min-width: 250px;
 }
 
-/*---------------------bhav-----------*/
-
-/*-----------------------------------------------------------
-intha css add pana navv maruthu but i have different class
- name for navv analum navv change aguthu so intha css aha nan comment 
- panirukaen neenga yeeduthutu try pani parunga unagluku epdi varthu nu
- css ilama irukura output image "WithoutCss.png"(in assets)
- intha css vacha output image "WithCss.png"(in assets) 
-
-
-
- withcss la nav bar konjam perusa agidukum ...pa
-
-
- aprm inon ena na antha blackCol irukula athu screen
-  starting la irunthu varnum anna enku konjam space varthu
- -----------------------------------------------------------*/
-
-
 .b_h1 {
   padding-top: 90px;
   color: white;
@@ -297,14 +268,12 @@ input[placeholder] {
   .b_input {
     margin-left: 15px;
     width: 30%;
-    /* Adjust the width as needed */
     margin-right: 1%;
     height: 30px;
   }
 
   .b_try {
     font-size: 12px;
-
   }
 
   input[placeholder] {
@@ -317,9 +286,8 @@ input[placeholder] {
   }
 }
 
-/*-------------orgot---*/
+/*-------------forgot password-- && delete account-------------*/
 
-/* CSS for Popup */
 .popup-modal {
   background-color: black;
   color: white;
@@ -434,18 +402,13 @@ input[placeholder] {
   color: white;
 }
 
-
-
 .fp-p {
   cursor: pointer;
   text-align: end;
 }
 
-
-
 .fp-p:hover {
   text-decoration: underline;
-
 }
 
 
@@ -460,7 +423,6 @@ input[placeholder] {
 
 li {
   margin-left: 10%;
-
 }
 
 
@@ -473,7 +435,7 @@ u {
 }
 
 
-/*--------------fronyt---------------*/
+/*--------------front---------------*/
 .front-pg {
   color: white;
   background-color: black;
