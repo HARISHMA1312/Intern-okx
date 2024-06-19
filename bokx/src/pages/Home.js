@@ -5,7 +5,7 @@ import Home1 from '../assets/Home1.png'
 import Home2 from '../assets/Home2.jpg'
 import Home3 from '../assets/Home3.jpg'
 import Vid from '../assets/OKX - video.mp4'
-import Front from './Front.js'
+
 
 function Home() {
   return (
