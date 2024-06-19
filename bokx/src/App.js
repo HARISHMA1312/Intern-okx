@@ -5,6 +5,7 @@ import Navv from './pages/Navv';
 import Login from './pages/Login'
 import Signup from './pages/Signup'
 import ReadValue from './pages/ReadValue';
+import Front from './pages/Front';
 function App() {
   return (
     <Router>
@@ -14,6 +15,7 @@ function App() {
              <Route path='/login' element={<Login/>}/>
              <Route path='/signup' element={<Signup/>}/>
              <Route path='/readvalue' element={<ReadValue/>}/>
+             <Route path='/front' element={<Front/>}/>
       </Routes> 
     </Router>
   );

@@ -231,6 +231,10 @@ export default function Login() {
     setShowPop(false);
   };
 
+  const handleLogin=()=>{
+    window.location.href='/front'
+  }
+
   const loginSchema = Yup.object().shape({
     email: Yup.string().email('Invalid email').required('Email is required'),
     password: Yup.string().required('Password is required'),
@@ -299,6 +303,7 @@ export default function Login() {
                       className='btn btn-primary w-100 mb-3 nxt-btn'
                       type="submit"
                       disabled={isSubmitting}
+                      onClick={handleLogin}
                     >
                       Log In
                     </button>

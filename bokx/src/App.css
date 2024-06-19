@@ -1,16 +1,16 @@
-.bdy{
+.bdy {
   background-color: black;
   color: white;
- 
+
   height: 100vh;
 }
 
 
 /*--------------Navv.css----------------*/
 
-.logo{
-   width: 40%;
-   height: 9%;
+.logo {
+  width: 40%;
+  height: 9%;
 }
 
 .navv {
@@ -19,7 +19,8 @@
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 1000; /* Ensure it stays above other content */
+  z-index: 1000;
+  /* Ensure it stays above other content */
 }
 
 
@@ -29,7 +30,7 @@
 }
 
 
-.signup-btn{
+.signup-btn {
   border-radius: 10px;
   border: 1px solid white;
   background-color: rgb(29, 28, 28);
@@ -57,17 +58,19 @@
   margin-right: 19%;
 }
 
-.login-bdy, .signup-bdy {
+.login-bdy,
+.signup-bdy {
   padding: 0;
   margin: 0;
   background-color: black;
   height: 100vh;
-  
-  align-items: stretch; 
+
+  align-items: stretch;
 }
 
 
-.login-container, .signup-container {
+.login-container,
+.signup-container {
   padding: 10%;
   justify-content: center;
 }
@@ -87,7 +90,7 @@
 .nxt-btn {
   background-color: lightgrey;
   color: rgb(103, 96, 96);
-  width: 100%; 
+  width: 100%;
   border-radius: 5px;
 }
 
@@ -141,58 +144,58 @@
 
 
 
-.recap{
+.recap {
   color: grey;
   font-size: 10px;
-  
+
 }
 
- p span b{
+p span b {
   cursor: pointer;
   text-decoration: underline;
 }
 
 /*---------------------Signup.css-------------------------*/
-.white-col{
+.white-col {
   padding: 2%;
   justify-content: center;
   background-color: white;
-  flex: 1; 
+  flex: 1;
   max-height: 91vh;
 }
 
-.signup-bdy{
+.signup-bdy {
   padding: 0;
   margin: 0;
 }
 
-.signup-container{
+.signup-container {
   padding: 9%;
- 
+
 }
 
 
-label{
+label {
   margin-bottom: 1%;
   margin-top: 1%;
 }
 
 .country-code-dropdown .dropdown-toggle {
-  width: 80%; 
+  width: 80%;
   text-align: left;
 }
 
 .country-code-dropdown .dropdown-menu {
-  width: 100%; 
-  min-width: 250px; 
+  width: 100%;
+  min-width: 250px;
 }
 
-.tel h6{
-   color:white;
+.tel h6 {
+  color: white;
 }
 
 .tel {
-  background-color: rgb(76,74,74);
+  background-color: rgb(76, 74, 74);
   padding: 3%;
   border-radius: 5px;
   width: 70%;
@@ -201,32 +204,32 @@ label{
 }
 
 
-.tel p{
+.tel p {
   color: white;
 }
 
 .country-code-dropdown .dropdown-item {
-  width: 80%; 
+  width: 80%;
 }
 
 
 .country-code-dropdown .dropdown-toggle {
-  width: 100%; 
-  text-align: left; 
-  padding-right: 30px; 
-  position: relative; 
+  width: 100%;
+  text-align: left;
+  padding-right: 30px;
+  position: relative;
 }
 
 .country-code-dropdown .dropdown-toggle::after {
   position: absolute;
-  right: 10px; 
+  right: 10px;
   top: 50%;
   transform: translateY(-50%);
 }
 
 .country-code-dropdown .dropdown-menu {
-  width: 100%; 
-  min-width: 250px; 
+  width: 100%;
+  min-width: 250px;
 }
 
 /*---------------------bhav-----------*/
@@ -247,8 +250,8 @@ intha css add pana navv maruthu but i have different class
   starting la irunthu varnum anna enku konjam space varthu
  -----------------------------------------------------------*/
 
- 
- .b_h1 {
+
+.b_h1 {
   padding-top: 90px;
   color: white;
   font-size: xxx-large;
@@ -256,6 +259,7 @@ intha css add pana navv maruthu but i have different class
   max-width: 500px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 .b_input {
   margin-left: 70px;
   margin-right: 1%;
@@ -289,16 +293,20 @@ input[placeholder] {
     padding-left: 15px;
     padding-top: 30px;
   }
+
   .b_input {
     margin-left: 15px;
-    width: 30%; /* Adjust the width as needed */
+    width: 30%;
+    /* Adjust the width as needed */
     margin-right: 1%;
     height: 30px;
   }
-  .b_try{
+
+  .b_try {
     font-size: 12px;
 
   }
+
   input[placeholder] {
     font-size: small;
   }
@@ -375,7 +383,7 @@ input[placeholder] {
 }
 
 
-.f-body{
+.f-body {
   background-color: black;
   color: white;
 }
@@ -428,20 +436,20 @@ input[placeholder] {
 
 
 
-.fp-p{
+.fp-p {
   cursor: pointer;
   text-align: end;
 }
 
 
 
-.fp-p:hover{
-text-decoration: underline;
+.fp-p:hover {
+  text-decoration: underline;
 
 }
 
 
-.reset-btn{
+.reset-btn {
   background-color: #007bff;
   color: white;
   border-radius: 5px;
@@ -450,16 +458,89 @@ text-decoration: underline;
 }
 
 
-li{
+li {
   margin-left: 10%;
-  
+
 }
 
 
-ul{
+ul {
   justify-content: space-evenly;
 }
 
-u{
+u {
   cursor: pointer;
+}
+
+
+/*--------------fronyt---------------*/
+.front-pg {
+  color: white;
+  background-color: black;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.what,
+.what-p {
+  margin-left: 20%;
+}
+
+.e_toggle-container {
+  margin-left: 60%;
+  margin-top: 3%;
+  position: relative;
+  display: flex;
+  background-color: #000;
+  border-radius: 25px;
+  overflow: hidden;
+  padding: 2px;
+  width: 200px;
+  cursor: pointer;
+  border: 1px solid #fff;
+
+  overflow: hidden;
+}
+
+.e_toggle-button {
+  flex: 1;
+  padding: 10px 20px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #000;
+  color: #fff;
+  border-radius: 25px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.e_toggle-button.active {
+  background-color: #fff;
+  color: #000;
+}
+
+.e_toggle-button:not(.active):hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.e_p {
+  font-size: 1rem;
+  text-align: center;
+  max-width: 400px;
+  margin-left: 10%;
+  color: white;
+}
+
+
+.e_phone1 {
+  margin-left: 25%;
+  margin-bottom: 10%;
+
+}
+
+
+.ifr{
+  margin-bottom: 10%;
 }
