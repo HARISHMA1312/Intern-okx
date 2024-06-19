@@ -4,7 +4,6 @@ import React from 'react'
 export default function BlackCol() {
   return (
     <div className='blackk'>
-         
             <h2 className='trade'>Trade with confidence</h2>
             <h6>
               Your funds are always backed 1:1 on OKX with our regularly published audits on our Proof of Reserves
@@ -16,7 +15,6 @@ export default function BlackCol() {
                 Ask questions, get answers, and chat with other traders to shape the crypto future together
               </p>
             </div>
-          
     </div>
   )
 }
