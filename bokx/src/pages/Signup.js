@@ -5,8 +5,6 @@ import { Col, Container, Row,  Form, Button } from 'react-bootstrap';
 import BlackCol from './BlackCol';
 import axios from 'axios'
 import PopDel from './PopDel';
-import {Formik,ErrorMessage,Field} from 'formik'
-import * as Yup from 'yup'
 
 
 /*
